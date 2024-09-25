@@ -11,6 +11,7 @@ This app provides random inspirational quotes based on a category chosen by the 
 - **Change Quote**: Change your daily qutoe if you don't like it.
 - **Category Selection**: Users can select categories to get quotes from.
 
+<img src="./screenshots/home.png" alt="Logo" width="300"/>
 ## Installation
 
 1. Clone this repository:
