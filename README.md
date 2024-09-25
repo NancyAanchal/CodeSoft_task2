@@ -1,4 +1,4 @@
-# Random Quote Generator
+# Quote Of the Day 
 
 This app provides random inspirational quotes based on a category chosen by the user. Users can save quotes to their favorites, remove them, and retrieve their favorite quotes. The quote updates every day and the user can also change their quote of the day if they don't like it.
 
