@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# Random Quote Generator
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This app provides random inspirational quotes based on a category chosen by the user. Users can save quotes to their favorites, remove them, and retrieve their favorite quotes. The quote updates every day and the user can also change their quote of the day if they don't like it.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Random Quotes**: Fetch random quotes based on a chosen category.
+- **Favorite Quotes**: Save your favorite quotes locally using `AsyncStorage`.
+- **Remove Quotes**: Remove quotes from your favorites list.
+- **Daily Quote Update**: The quote refreshes every day at midnight.
+- **Change Quote**: Change your daily qutoe if you don't like it.
+- **Category Selection**: Users can select categories to get quotes from.
+
+## Installation
+
+1. Clone this repository:
 
    ```bash
-   npm install
+   git clone https://github.com/your-username/quote-app.git
+   cd quote-app
    ```
 
-2. Start the app
+Install dependencies:
 
-   ```bash
-    npx expo start
-   ```
+bash
+npm install
+Create a .env file in the root directory and add your API key:
 
-In the output, you'll find options to open the app in a
+env
+API_KEY=your-api-ninjas-api-key
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Start the app:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+npm start
 
-## Get a fresh project
+Technologies Used
+React Native: To build the mobile interface.
+TypeScript: For type safety and better code maintainability.
+Expo: To handle mobile app development and deployment.
+AsyncStorage: For local storage to store quotes and favorites.
+API Ninjas Quotes API: For fetching random quotes from different categories.
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+How to Use
+Select Category: Choose a quote category from the dropdown.
+Change Quote: Click on the Change Quote button to fetch a new random quote.
+Add to Favorites: Tap the heart icon to save a quote to your favorites.
+View Favorites: Navigate to the "Favorites" screen to see saved quotes.
+Remove from Favorites: Click on the heart icon again to remove a quote from your favorites.
+Environment Variables
+API_KEY: Your API key for accessing the API Ninjas Quotes API.
+Example .env file:
