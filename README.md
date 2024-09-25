@@ -10,8 +10,10 @@ This app provides random inspirational quotes based on a category chosen by the 
 - **Daily Quote Update**: The quote refreshes every day at midnight.
 - **Change Quote**: Change your daily qutoe if you don't like it.
 - **Category Selection**: Users can select categories to get quotes from.
-
-<img src="./screenshots/home.png" alt="Logo" width="300"/>
+  <div align="justify">
+     
+<img src="./screenshots/home.png" alt="Logo" width="100"/>
+  </div>
 ## Installation
 
 1. Clone this repository:
