@@ -20,32 +20,26 @@ This app provides random inspirational quotes based on a category chosen by the 
    cd quote-app
    ```
 
-Install dependencies:
+2. Install dependencies:
 
-bash
-npm install
-Create a .env file in the root directory and add your API key:
+   ```bash
+   npm install
+   ```
+3. Create a .env file in the root directory and add your API key:
 
-env
-API_KEY=your-api-ninjas-api-key
+   ```env
+   API_KEY=your-api-ninjas-api-key
+   
+4. Start the app:
+   ```bash
+   npm start
 
-Start the app:
+## Technologies Used
 
-npm start
+**React Native:** To build the mobile interface.
+**TypeScript:** For type safety and better code maintainability.
+**Expo:** To handle mobile app development and deployment.
+**AsyncStorage:** For local storage to store quotes and favorites.
+**API Ninjas Quotes API:** For fetching random quotes from different categories.
 
-Technologies Used
-React Native: To build the mobile interface.
-TypeScript: For type safety and better code maintainability.
-Expo: To handle mobile app development and deployment.
-AsyncStorage: For local storage to store quotes and favorites.
-API Ninjas Quotes API: For fetching random quotes from different categories.
 
-How to Use
-Select Category: Choose a quote category from the dropdown.
-Change Quote: Click on the Change Quote button to fetch a new random quote.
-Add to Favorites: Tap the heart icon to save a quote to your favorites.
-View Favorites: Navigate to the "Favorites" screen to see saved quotes.
-Remove from Favorites: Click on the heart icon again to remove a quote from your favorites.
-Environment Variables
-API_KEY: Your API key for accessing the API Ninjas Quotes API.
-Example .env file:
