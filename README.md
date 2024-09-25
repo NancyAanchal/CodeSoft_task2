@@ -1,6 +1,7 @@
 # Quote Of the Day 
 
 This app provides random inspirational quotes based on a category chosen by the user. Users can save quotes to their favorites, remove them, and retrieve their favorite quotes. The quote updates every day and the user can also change their quote of the day if they don't like it.
+<img src="./screenshots/home.png" alt="Logo" width="150"/>
 
 ## Features
 
@@ -10,10 +11,10 @@ This app provides random inspirational quotes based on a category chosen by the 
 - **Daily Quote Update**: The quote refreshes every day at midnight.
 - **Change Quote**: Change your daily qutoe if you don't like it.
 - **Category Selection**: Users can select categories to get quotes from.
-  <div align="justify">
+
      
-<img src="./screenshots/home.png" alt="Logo" width="100"/>
-  </div>
+
+
 ## Installation
 
 1. Clone this repository:
